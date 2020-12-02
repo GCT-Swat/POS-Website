@@ -1,0 +1,55 @@
+html,body {
+    height: 100%;
+}
+.container {
+    max-width: 1170px;
+}
+#loginForm {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -103px;
+}
+main {
+    height: calc(100% - 184px);
+    min-height: 500px;
+    margin-top: -64px;
+    margin-bottom: 64px;
+}
+.btn-primary {
+    background-color: #6494F3;
+}
+
+#search::before {
+    content: "hello world!";
+    font-family: "Font Awesome 5 Free";
+}
+#search:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+}
+.paper {
+    background-image: url('../images/paper.jpg');
+    min-height: 490px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.20);
+
+
+}
+@keyframes newsChannel {
+    0% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(180deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.news-reel {
+    animation: newsChannel linear 3s infinite;
+}
+.btn-light:hover {
+    color: #1b62f0;
+}
